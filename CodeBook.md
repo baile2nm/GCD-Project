@@ -7,11 +7,7 @@ The output dataset is contained in the file average_vals.txt and is stored in a 
 * SubjectID: Numeric identifier of which subject generated the observations in the row. There were 30 subjects for this experiment, numbered 1-30.
 
 * Activity: Description of the activity the subject performed while the smartphone data was sampled. The activities are one of the following: (WALKING
-2 WALKING_UPSTAIRS
-3 WALKING_DOWNSTAIRS
-4 SITTING
-5 STANDING
-6 LAYING
+ WALKING_UPSTAIRS WALKING_DOWNSTAIRS SITTING STANDING LAYING
 ).
 
 * Columns 3-68: Average values of numeric readouts from the smartphone's motion sensors that correspond to the subject and activity in that row. The names are taken from the dataset on the [Human Activity Recognition Using Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) study website so that the fields can be easily cross referenced to the original dataset. Note that the summary dataset referenced in this codebook contains averages of these data points, even though the field names are unchanged.
